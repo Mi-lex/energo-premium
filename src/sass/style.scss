@@ -1,4 +1,12 @@
-@import './normalize.scss';
+@import './_normalize';
 // Globals
-@import './globals/variables.scss';
-@import './globals/page.scss';
+@import './globals/variables';
+@import './globals/mixins';
+@import './globals/page';
+// bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Blocks
+@import './blocks/page-header';
+@import './blocks/page-slider';
+@import './blocks/contacts';

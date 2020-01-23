@@ -93,6 +93,10 @@ const config = {
         new HtmlWebpackPlugin({
             template: './src/html/main.html.js'
         }),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery'
+        })
     ],
 
     optimization: {

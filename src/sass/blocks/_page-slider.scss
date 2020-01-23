@@ -1,0 +1,19 @@
+.page-slider {
+    border-bottom-left-radius: 100% 10%;
+    border-bottom-right-radius: 100% 10%;
+    &__order-calculation {
+        color: white;
+        background-color: $btn-color;
+
+        &:hover,
+        &:active {
+            transform: scale(1.02);
+            color: white;
+        }
+    }
+
+    &__counter {
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
