@@ -89,14 +89,15 @@ const config = {
     },
 
     plugins: [
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+            Popper: ['popper.js', 'default'],  
+        }),
         new ExtractTextPlugin("[name].css"),
         new HtmlWebpackPlugin({
             template: './src/html/main.html.js'
         }),
-        new webpack.ProvidePlugin({
-            $: 'jquery',
-            jQuery: 'jquery'
-        })
     ],
 
     optimization: {
