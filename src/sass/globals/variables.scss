@@ -1,0 +1,25 @@
+/* Path */
+$background-path: './../img/backgrounds/';
+
+/* Global fonts rules */
+$page-font: 'Roboto Condensed', sans-serif;
+$page-font-color:black;
+$page-line-height: normal;
+
+$mobile-font-size: 16px;
+$tablet-font-size: 20px;
+
+/* Sizes */
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1150px;
+$desktop-large-width: 1600px;
+
+$mobile-width-only: $tablet-width - 1px;
+$tablet-mobile-width-only: $desktop-width - 1px;
+
+$desktop-wrapper-width: 1050px;
+
+/* Resolucions */
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
