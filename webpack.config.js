@@ -5,7 +5,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const BUILD_FOLDER = 'build'
+const BUILD_FOLDER = 'docs'
 
 const config = {
     entry: {
