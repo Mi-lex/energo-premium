@@ -61,7 +61,13 @@
 
         &__logo {
             position: static;
+            display: flex;
+            align-items: flex-start;
             transform: translateX(0);
+        }
+
+        &__logo-img {
+            align-self: center;
         }
         
         &__order-call {
