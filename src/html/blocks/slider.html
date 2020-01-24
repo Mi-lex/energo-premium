@@ -1,11 +1,13 @@
 <section class="page-slider position-relative">
     <ul class="page-slider__slide-list position-absolute">
-        <li class="page-slider__slide-screen position-absolute"></li>
+        <li class="page-slider__slide-screen position-absolute">
+            <img class="page-slider__screen-img" src="/src/img/workers.png" alt="" srcset="">
+        </li>
         <li class="page-slider__slide-screen position-absolute"></li>
         <li class="page-slider__slide-screen position-absolute"></li>
     </ul>
-    <div class="page__container bg-dark text-white ">
-        <section class="page-slider__content bg-dark">
+    <div class="page__container text-white ">
+        <section class="page-slider__content">
             <h1 class="page__title">Строительство трансформаторных подстанций</h1> 
             <p class="page__services">
                 и линейных объектов напряжением от 0,4 кВ до 110 кВ.<br>
@@ -16,16 +18,18 @@
                 заказать расчет
             </button>
         </section>
+    </div>
+    <div class="page-slider__lower-items page__container text-white">
         <ul class="contacts">
             <li class="contacts__item">info@enprem.com</li>
             <li class="contacts__item">+7 812 309 94 98</li>
         </ul>
+        <button class="page-slider__details">
+            <span class="visually-hidden">Следующий слайд</span>
+        </button>
+        <span class="page-slider__counter">
+            <span class="page-slider__current">1</span>
+            <span class="page-slider__amount">/3</span>
+        </span>
     </div>
-    <button class="page-slider__toggler">
-        <span class="visually-hidden">Следующий слайд</span>
-    </button>
-    <span class="page-slider__counter">
-        <span class="page-slider__current">1</span>
-        <span class="page-slider__amount">/3</span>
-    </span>
 </section>

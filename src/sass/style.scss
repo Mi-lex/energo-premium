@@ -2,9 +2,9 @@
 // Globals
 @import './globals/variables';
 @import './globals/mixins';
+@import "~bootstrap/scss/bootstrap";
 @import './globals/page';
 // bootstrap
-@import "~bootstrap/scss/bootstrap";
 
 // Blocks
 @import './blocks/page-header';
