@@ -87,7 +87,10 @@ const config = {
             },
         ]
     },
-
+	devServer: {
+		historyApiFallback: true,
+		contentBase: path.resolve(__dirname, BUILD_FOLDER),
+	},
     plugins: [
         new webpack.ProvidePlugin({
             $: 'jquery',

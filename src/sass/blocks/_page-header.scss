@@ -39,6 +39,7 @@
 
     
     &__navbar-wrapper {
+        width: 60%;
         max-width: 60%;
     }
 }
@@ -56,6 +57,7 @@
         &__navbar-wrapper {
             display: flex;
             margin: 0 auto;
+            width: auto;
             max-width: 1295px;
         }
 

@@ -16,7 +16,7 @@ body {
   min-width: $mobile-width;
   margin: 0;
   padding: 0;
-
+  background-color: #fff;
   font-family: $page-font;
   font-weight: normal;
   line-height: $page-line-height;
@@ -79,7 +79,6 @@ img {
       &__title {
         font-size: 48px;
         padding-left: 23px;
-        margin-bottom: 54px;
       }
 
       &__services {
